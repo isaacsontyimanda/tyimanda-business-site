@@ -116,14 +116,14 @@ main > section > h2 {
 
 main > section > p {
     display: block;
-    width: 400px;
+    width: 374px;
     text-align: justify;
     line-height: 1.5em;
     margin: auto;
 }
 
 main > section > p > picture > img {
-    width: 400px;
+    width: 374px;
 }
 
 footer {
