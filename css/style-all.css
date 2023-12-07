@@ -3,19 +3,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Hedvig+Letters+Sans&family=Nova+Square&family=Raleway:wght@100;200;400&display=swap');
 
 :root {
+    
+    /* Fontes usadas*/
     --font00: 'Roboto', sans-serif;
     --font01: 'Hedvig Letters Sans', sans-serif;
     --font02: 'Nova Square', sans-serif;
     --font03: 'Raleway', sans-serif;
-
+    
+    /*Paleta de cores*/
+    --azul-escuro: #01080E;
+    --verde-claro: #5aed83;
 }
 
-    /*
-    font-family: 'Roboto', sans-serif;
-    font-family: 'Hedvig Letters Sans', sans-serif;
-    font-family: 'Nova Square', sans-serif;
-    font-family: 'Raleway', sans-serif;
-    */
 * {
     padding: 0px;
     margin: 0px;
@@ -45,21 +44,29 @@ header > p {
     font-family: var(--font02);
     font-size: .9em;
     text-align: center;
-    padding-bottom: 10px;
+    margin-bottom: 10px;
 }
 
-nav.menu-lateral {
-    width: 300px;
-    height: 50%;
-    background-color: #01080E;
+nav#menu {
+    display: none;
+    width: 200px;
+    height: 45vh;
+    background-color: #01080ee0;
     color: #5aed83;
+    border-radius: 2px  10px;
     padding: 40px 0px 40px 1%;
+    margin-top: 2px;
 }
 
-.btn-expandir > i {
+div.btn-expandir > i.bi {
+    font-size: 1.4em;
     color: #5aed83;
-    font-size: 28px;
+    border: 1px solid var(--verde-claro);
+    border-radius: 5px 0px;
     cursor: pointer;
+    padding-left: 4px;
+    padding-right: 4px;
+
 }
 
 ul {
@@ -72,7 +79,23 @@ ul li.item-menu a {
     text-decoration: none;
     color: #5aed83;
     font-size: 1em;
-    padding: 10px 4%;
+    padding: 5px 4%;
 }
 
-nav. > ul > li > a
+ul > li.item-menu > a > span.icon {
+    padding: 6px;
+}
+
+ul > li.item-menu > a > span.icon:hover {
+    border: 1px solid var(--verde-claro);
+    border-radius: 50%;
+}
+
+ul > li.item-menu > a > span.txt-links {
+    padding: 6px;
+    margin-left: 10px;
+}
+
+ul > li.item-menu > a > span.txt-links:hover {
+    text-decoration: underline;
+}
