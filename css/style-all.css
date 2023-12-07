@@ -122,6 +122,23 @@ main > section > p {
     margin: auto;
 }
 
-main > section.tecnologia {
-    background: url('/');
+main > section > p > picture > img {
+    width: 400px;
+}
+
+footer {
+    background-color: #01080E;
+    color: #5aed83;
+    text-align: center;
+    font-size: .9em;
+    padding: 10px;
+}
+
+footer > p > a {
+    text-decoration: none;
+    color: var(--verde-claro);
+}
+
+footer > p > a:hover {
+    text-decoration: underline;
 }
