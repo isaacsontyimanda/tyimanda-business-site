@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+header {
+    height: 180px;
+}
+
+nav#menu {
+    display: block;
+    background-color: transparent;
+    padding: 0px;
+}
+
+div.btn-expandir > i.bi {
+    display: none;
+}
