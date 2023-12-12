@@ -10,6 +10,12 @@ nav#menu {
     padding: 0px;
 }
 
+.container {
+    display: flex;
+
+    justify-content: space-between;
+}
+
 div.btn-expandir > i.bi {
     display: none;
 }
