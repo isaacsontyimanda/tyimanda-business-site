@@ -34,7 +34,7 @@ header {
     padding: 10px;
 }
 
-header > picture > img {
+header > a > picture > img {
     width: 220px;
     display: block;
     margin: auto;
@@ -75,7 +75,6 @@ ul {
 }
 
 ul li.item-menu a {
-    display: flex;
     text-decoration: none;
     color: #5aed83;
     font-size: 1em;
