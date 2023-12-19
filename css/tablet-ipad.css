@@ -28,6 +28,10 @@ ul.container {
     display: flex;
 }
 
+ul li.item-menu a {
+    line-height: normal;
+}
+
 ul > li.item-menu > a > span.icon {
     
 }
