@@ -125,7 +125,8 @@ main > section > p {
 
 picture > img {
     display: block;
-    width: 99%;
+    width: 98%;
+    border-radius: 5px;
     margin: auto;
 }
 
