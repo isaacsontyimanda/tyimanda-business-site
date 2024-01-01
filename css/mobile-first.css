@@ -102,6 +102,11 @@ ul > li.item-menu > a > span.txt-links:hover {
     text-decoration: underline;
 }
 
+a.links01 {
+    text-decoration: none;
+    color: var(--verde-claro);
+}
+
 main {
     margin: 10px;
 }
