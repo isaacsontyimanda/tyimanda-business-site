@@ -1,0 +1,89 @@
+@charset "UTF-8";
+
+body,header,main, footer {
+    display: block;
+    width: 1000px;
+    box-shadow: 0px 3px 8px -1px #00000059;
+    margin: auto;
+}
+
+header > p {
+    font-family: var(--font02);
+    font-size: 1em;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+div.btn-expandir > i.bi {
+    display: none;
+}
+
+header > p {
+    font-size: 1.1em;
+}
+
+nav#menu {
+    display: block;
+    width: 100%;
+    height: 40px;
+    background-color: var(--azul-escuro);
+    border-radius: 0px;
+    margin: 0px;
+}
+
+ul.container {
+    display: flex;
+}
+
+ul li.item-menu a {
+    line-height: normal;
+}
+
+ul > li.item-menu > a > span.icon {
+    display: none;
+}
+
+ul > li.item-menu > a > span.icon:hover {
+    border: 0px;
+}
+
+main > section > h2 {
+    display: block;
+    width: 1000px;
+    margin: auto;
+}
+
+main > section.loja {
+    height: 440px;
+    background: url(../imgs/site-para-loja-virtual.jpg) center center no-repeat;
+    background-size: auto;
+    background-attachment: fixed;
+}
+
+main > section.tecnologia {
+    height: 440px;
+    background: url(../imgs/loja.jpg) center center no-repeat;
+    background-size: auto;
+    background-attachment: fixed;
+}
+
+main > section > p {
+    width: 50vw;
+    line-height: 2em;
+}
+
+main > section > p.unic {
+    width: 50vw;
+    height: 50vh;
+    background: rgba(0, 0, 0, 0.418);
+    color: white;
+    line-height: 2em;
+    text-indent: 30px;
+    border-radius: 10px;
+    padding: 5px;
+    margin-top: 40px;
+}
+
+picture > img {
+    display: none;
+}
