@@ -11,7 +11,6 @@ header > p {
     font-family: var(--font02);
     font-size: 1em;
     text-align: center;
-    margin-bottom: 10px;
 }
 
 div.btn-expandir > i.bi {
@@ -28,7 +27,7 @@ nav#menu {
     height: 40px;
     background-color: var(--azul-escuro);
     border-radius: 0px;
-    margin: 0px;
+    margin-bottom: 10px;
 }
 
 ul.container {
