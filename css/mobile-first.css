@@ -137,6 +137,32 @@ picture > img {
     margin: auto;
 }
 
+/*CSS for Loja*/
+
+div.loja141 > a {
+    text-decoration: none;
+}
+
+div.loja141 {
+    width: 48px;
+    cursor: pointer;
+}
+
+div.loja141 > a > i {
+    color: var(--verde-claro);
+    font-size: 3em;
+}
+
+div.loja141 > a > p {
+    color: var(--verde-claro);
+    font-size: 1em;
+    font-weight: bold;
+}
+
+div.loja141:hover {
+    color: #318349;
+}
+
 footer {
     background-color: #01080E;
     color: #5aed83;
