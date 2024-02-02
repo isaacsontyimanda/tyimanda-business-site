@@ -99,7 +99,6 @@ ul > li.item-menu > a > span.txt-links {
 
 ul > li.item-menu > a > span.txt-links:hover {
     color: #318349;
-    text-decoration: underline;
 }
 
 a.links01 {
@@ -177,5 +176,5 @@ footer > p > a {
 }
 
 footer > p > a:hover {
-    text-decoration: underline;
+    color: #318349;
 }
